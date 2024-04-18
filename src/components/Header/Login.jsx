@@ -6,6 +6,7 @@ import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 import UseAuth from "../../Hooks/UseAuth";
 import AboutBg from '../../assets/about-bg-.jpg'
+import './Navigation.css';
 
 const Login = () => {
     const { singInUser, googleLogin, githubLogin } = UseAuth();

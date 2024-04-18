@@ -20,13 +20,6 @@ const Register = () => {
 
     const onSubmit = (data) => {
         const { email, password, name, photoUrl } = data;
-        // console.log(data)
-
-        // Validate password
-        if (password.length < 6) {
-            alert("Password must be at least 6 characters long");
-            return;
-        }
 
         createUser(email, password)
             .then(result => {
@@ -35,11 +28,9 @@ const Register = () => {
                 logOut()
                 toast.success('User Register Sucessfully')
                 navigate('/login')
-                // console.log(registerData);
             })
             .catch(error => {
                 const errorMessage = error.message;
-                // console.log(errorMessage);
                 toast.error(`${errorMessage}`)
             });
     };
@@ -115,8 +106,8 @@ const Register = () => {
                                 {...register("password", {
                                     required: "Password is required",
                                     minLength: {
-                                        value: 6,
-                                        message: "Password must be at least 6 characters long"
+                                        value: 8,
+                                        message: "Password must have at least 6 characters"
                                     },
                                     validate: {
                                         hasUppercase: value => /[A-Z]/.test(value) || "Password must contain at least one uppercase letter",

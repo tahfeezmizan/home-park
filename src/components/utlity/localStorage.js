@@ -11,7 +11,7 @@ const getStoredProperties = () => {
 
 const saveProperties = propertiesId => {
     const storedPropertie = getStoredProperties();
-    const isExist = storedPropertie.find(cardId => cardId == propertiesId);
+    const isExist = storedPropertie.find(cardId => cardId === propertiesId);
     
     if (!isExist) {
         storedPropertie.push(propertiesId);

@@ -104,15 +104,7 @@ const Register = () => {
                                 placeholder="Enter Your Password"
                                 className="w-4/5"
                                 {...register("password", {
-                                    required: "Password is required",
-                                    minLength: {
-                                        value: 8,
-                                        message: "Password must have at least 6 characters"
-                                    },
-                                    validate: {
-                                        hasUppercase: value => /[A-Z]/.test(value) || "Password must contain at least one uppercase letter",
-                                        hasLowercase: value => /[a-z]/.test(value) || "Password must contain at least one lowercase letter"
-                                    }
+                                    required: " Password 6 characters, one uppercase letter one lowercase letter is required,",
                                 })}
                             />
                             <button

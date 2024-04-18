@@ -16,9 +16,3 @@ Live Link:- https://home-park-d5ce4.web.app
 
 ****** This website uses the npm package ******
 
-1. react router
-2. tailwindcss
-3. daisyUI
-4. firebase
-5. aos animation
-6. react icon

@@ -33,35 +33,35 @@ const Contact = () => {
 
                     <div className="contact-from xl:col-span-7">
                         <div className="flex flex-col xl:flex-row gap-6 mb-6">
-                            <div className="w-full xl:w-1/2">
+                            <div data-aos="fade-right" data-aos-duration="1700" className="w-full xl:w-1/2">
                                 <label htmlFor="name" className="text-black text-xl font-bold">Your Name</label>
                                 <input type="text" placeholder="Enter your full name" id="name"
                                     className="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none" />
                             </div>
-                            <div className="w-full xl:w-1/2">
+                            <div data-aos="fade-left" data-aos-duration="1800" className="w-full xl:w-1/2">
                                 <label htmlFor="email" className="text-black text-xl font-bold">Your Email</label>
                                 <input type="email" placeholder="Enter your email" id="email"
                                     className="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none" />
                             </div>
                         </div>
-                        <div className="flex flex-col xl:flex-row gap-6 mb-6">
+                        <div data-aos="fade-right" data-aos-duration="1700" className="flex flex-col xl:flex-row gap-6 mb-6">
                             <div className="w-full xl:w-1/2">
                                 <label htmlFor="subject" className="text-black text-xl font-bold">Subject</label>
                                 <input type="text" placeholder="Enter your subject" id="subject"
                                     className="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none" />
                             </div>
-                            <div className="w-full xl:w-1/2">
+                            <div data-aos="fade-left" data-aos-duration="1800" className="w-full xl:w-1/2">
                                 <label htmlFor="number" className="text-black text-xl font-bold">Your Number</label>
                                 <input type="number" placeholder="Enter your phone number" id="number"
                                     className="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none" />
                             </div>
                         </div>
-                        <div className="mb-8">
+                        <div  data-aos="fade-right" data-aos-duration="1800"className="mb-8">
                             <label htmlFor="message" className="text-black text-xl font-bold">Message</label>
                             <textarea placeholder="Write your message" id="message" cols="30" rows="10"
                                 className="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none"></textarea>
                         </div>
-                        <button
+                        <button data-aos="fade-right" data-aos-duration="1800"
                             className="btn border-none rounded-8 w-full bg-green-500 text-white text-xl font-semibold hover:bg-green-600">Send
                             Message</button>
                     </div>

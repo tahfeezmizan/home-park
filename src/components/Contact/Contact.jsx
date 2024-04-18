@@ -63,7 +63,7 @@ const Contact = () => {
 
 
                     <div className="address-bar xl:col-span-5 p-5 md:p-10 border-2 rounded-xl">
-                        {/* <div className="phone-number py-10 px-8 rounded-2xl mb-6 bg-green-300 bg-opacity-10">
+                        <div className="phone-number py-10 px-8 rounded-2xl mb-6 bg-green-300 bg-opacity-10">
                             <img src={phoneImg} className="mb-6" alt="" />
                             <p className="text-gray-400 text-base">Phone Number :</p>
                             <h4 className="text-black text-lg font-extrabold">(+62) 123-321-543</h4>
@@ -77,12 +77,7 @@ const Contact = () => {
                             <img src={LocationImg} className="mb-6" alt="" />
                             <p className="text-gray-400 text-base">Location :</p>
                             <h4 className="text-black text-lg font-extrabold">152/1 Mirpur-1 Mazar Road, Dhaka</h4>
-                        </div> */}
-
-                        <div className="">
-                            <h1 className="text-5xl">Area map</h1>
                         </div>
-
                     </div>
 
                 </div>

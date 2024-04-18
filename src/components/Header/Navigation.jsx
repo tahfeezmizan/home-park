@@ -26,7 +26,7 @@ const Navigation = () => {
     </>
 
     return (
-        <div className="w-full lg:w-5/6 xl:w-8/12 mx-auto  navbar py-4">
+        <div className="w-full lg:w-5/6 xl:w-8/12 mx-auto absolute left-0 right-0 top-0 z-50 navbar py-4">
             <div data-aos="fade-right" data-aos-duration="1300" className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,7 +63,7 @@ const Navigation = () => {
                     </div>
                     :
                     <div className="flex gap-4">
-                        <NavLink className="btn" to="/login">Login</NavLink>
+                        <NavLink className="btn btn-outline border-white hover:border-[#007AFF] border-2 text-white font-semibold text-base" to="/login">Login</NavLink>
                     </div>
                 }
             </div>

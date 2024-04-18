@@ -1,4 +1,3 @@
-import { GoogleAuthProvider } from "firebase/auth/cordova";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -6,8 +5,7 @@ import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 import UseAuth from "../../Hooks/UseAuth";
-import auth from "../../firebase/firebase.config";
-import { TbUserEdit } from "react-icons/tb";
+import AboutBg from '../../assets/about-bg-.jpg'
 
 const Login = () => {
     const { singInUser, googleLogin, githubLogin } = UseAuth();
@@ -43,7 +41,7 @@ const Login = () => {
     };
 
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: `url(${AboutBg})` }}>
             <Helmet>
                 <title>Login - Home Park React Template</title>
             </Helmet>
@@ -87,7 +85,7 @@ const Login = () => {
                         {errors.password && <span className="text-xs text-red-500">Password is required</span>}
                     </div>
                     <div className="form-control my-6">
-                        <button className="btn btn-primary text-white text-xl font-bold">Login</button>
+                        <button className="btn  bg-[#007AFF] hover:bg-[#007bffde] text-white text-xl font-bold">Login</button>
                     </div>
                 </form>
                 <div className="text-center">
@@ -126,7 +124,7 @@ const Login = () => {
                         </button>
                     </div>
                 </div>
-                <h3 className="text-black text-center pt-3">Don't have an account? <NavLink to="/register" className="text-green-600 font-bold">Create Account</NavLink></h3>
+                <h3 className="text-black text-center pt-3">Don't have an account? <NavLink to="/register" className="text-[#007AFF] font-bold">Create Account</NavLink></h3>
             </div>
         </div>
     );

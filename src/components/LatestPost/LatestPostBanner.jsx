@@ -4,7 +4,7 @@ import blogBanner from '../../assets/blog.jpg'
 
 const LatestPostBanner = () => {
     return (
-        <div className="text-center text-6xl py-32" style={{
+        <div className="text-center text-6xl py-60" style={{
             backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${blogBanner})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',

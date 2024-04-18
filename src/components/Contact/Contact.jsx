@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutBg from '../../assets/about-bg-.jpg'
+import slider3 from '../../assets/slider 3.jpg'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 import { Helmet } from 'react-helmet-async';
 import LocationImg from '../../assets/map-icon.png'
@@ -12,9 +12,14 @@ const Contact = () => {
             <Helmet>
                 <title>Contact - Home Park React Template</title>
             </Helmet>
-            <div className="text-center text-6xl py-32" style={{ backgroundImage: `url(${AboutBg})` }}>
+            <div className="text-center text-6xl py-52" style={{
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(${slider3})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+            }}>
                 <div className="w-full lg:w-5/6 xl:w-8/12 mx-auto px-2 lg:px-0">
-                    <h1 data-aos="fade-down" data-aos-duration="1700" className="text-white font-bold" >About Us</h1>
+                    <h1 data-aos="fade-down" data-aos-duration="1700" className="text-white font-bold" >Contact Us</h1>
                 </div>
             </div>
 

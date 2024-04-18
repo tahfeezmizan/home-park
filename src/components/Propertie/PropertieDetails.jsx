@@ -17,7 +17,7 @@ const PropertieDetails = () => {
 
 
     return (
-        <div className='w-full lg:w-9/12 xl:w-8/12 mx-auto px-3 py-10 md:px-0'>
+        <div className='w-full lg:w-9/12 xl:w-8/12 mx-auto px-3 py-28 md:px-0'>
             <Helmet>
                 <title>Properties Details - Home Park React Template</title>
             </Helmet>

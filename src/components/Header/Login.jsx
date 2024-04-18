@@ -41,7 +41,12 @@ const Login = () => {
     };
 
     return (
-        <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: `url(${AboutBg})` }}>
+        <div className="glass hero min-h-screen bg-base-200" style={{
+            backgroundImage: `url(${AboutBg})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+        }}>
             <Helmet>
                 <title>Login - Home Park React Template</title>
             </Helmet>

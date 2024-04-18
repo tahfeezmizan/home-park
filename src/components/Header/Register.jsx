@@ -5,6 +5,7 @@ import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { NavLink, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Helmet } from "react-helmet-async";
+import slider2 from '../../assets/slider 2.jpg'
 
 const Register = () => {
     const { createUser, userProfileUpdate, logOut } = UseAuth();
@@ -48,7 +49,12 @@ const Register = () => {
     };
 
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen bg-base-200" style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${slider2})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+        }}>
             <Helmet>
                 <title>Register - Home Park React Template</title>
             </Helmet>
@@ -129,10 +135,10 @@ const Register = () => {
                         {errors.password && <span className="text-xs text-red-500">Password is required</span>}
                     </div>
                     <div className="form-control my-6">
-                        <button type="submit" className="btn btn-primary text-white text-xl font-bold">Create An Account</button>
+                        <button type="submit" className="btn bg-[#007AFF] hover:bg-[#007bffde] text-white text-xl font-bold">Create An Account</button>
                     </div>
                 </form>
-                <h3 className="text-black text-center">Have an account? <NavLink to="/login" className="text-green-600 font-bold ">Sing In</NavLink></h3>
+                <h3 className="text-black text-center -mt-7">Have an account? <NavLink to="/login" className="text-[#007AFF] font-bold ">Sing In</NavLink></h3>
             </div>
         </div>
     );

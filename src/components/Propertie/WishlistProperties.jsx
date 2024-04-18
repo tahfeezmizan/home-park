@@ -23,8 +23,8 @@ const WishlistProperties = () => {
 
     return (
         <div >
-            <div className="text-center text-6xl py-32" style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${wishlistBg})`,
+            <div className="text-center text-6xl py-52" style={{
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${wishlistBg})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'

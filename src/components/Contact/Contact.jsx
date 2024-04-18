@@ -13,7 +13,7 @@ const Contact = () => {
                 <title>Contact - Home Park React Template</title>
             </Helmet>
             <div className="text-center text-6xl py-52" style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(${slider3})`,
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(${slider3})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'

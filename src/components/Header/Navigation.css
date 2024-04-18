@@ -1,6 +1,9 @@
 .navMenu {
     background: #00000063;
 }
+.profileLink{
+    color: #000 !important;
+}
 
 li a {
     color: white !important;

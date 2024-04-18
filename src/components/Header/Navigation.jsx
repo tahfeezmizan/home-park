@@ -55,7 +55,7 @@ const Navigation = () => {
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-50 p-4 shadow bg-base-100 rounded-box w-52">
                                 <li>
                                     <p className="text-xl text-center font-bold capitalize mb-3">{user.displayName}</p>
-                                    <NavLink to="/profile" className="text-xl mb-3 flex items-center hover:bg-blue-300"><span className="text-blue-600"><TbUserEdit /></span>Profile</NavLink>
+                                    <NavLink to="/profile" className="profileLink text-xl mb-3 flex items-center hover:bg-blue-300"><span className="text-blue-600"><TbUserEdit /></span>Profile</NavLink>
                                 </li>
                                 <li>
                                     <button onClick={logOut} className="text-xl mb-3 flex items-center hover:bg-blue-300"><span className="text-blue-600"><CiLogout /></span> LogOut</button>

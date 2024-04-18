@@ -5,8 +5,8 @@ import bannerImg from '../../assets/properties.jpg'
 const PropertiesBanner = () => {
 
     return (
-        <div className="text-center text-6xl py-32" style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${bannerImg})`,
+        <div className="text-center text-6xl py-52" style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${bannerImg})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'

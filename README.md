@@ -8,4 +8,5 @@
 2. tailwindcss
 3. daisyUI
 4. firebase
-5. 
+5. aos animation
+6. react icon

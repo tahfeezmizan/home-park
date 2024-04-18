@@ -1,0 +1,16 @@
+a.active {
+    background: #fff !important;
+    border: 2px solid #f0f2f7;
+    color: #4b87fd !important;
+    font-weight: 700;
+}
+
+.Sitelogo.active {
+    border: none !important;
+    color: black !important;
+}
+
+
+.dropdown-content {
+    z-index: 10;
+}

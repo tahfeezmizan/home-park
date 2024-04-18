@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "cover_image": "https://demo2.themelexus.com/latehome/wp-content/uploads/2019/08/blog7-770x470.jpg",
+        "title": "How To Design a Website For Your Real Estate Business",
+        "description": "We don’t see them, we will never see them. Special cloth alert. They don’t want us to eat. To succeed you must believe.",
+        "author": {
+            "name": "Mike",
+            "posted_date": "7 January 2024"
+        }
+    },
+    {
+        "id": 2,
+        "cover_image": "https://demo2.themelexus.com/latehome/wp-content/uploads/2019/08/blog6-770x470.jpg",
+        "title": "How To Design a Website For Your Real Estate Business",
+        "description": "We don’t see them, we will never see them. Special cloth alert. They don’t want us to eat. To succeed you must believe.",
+        "author": {
+            "name": "Anthony Mark",
+            "posted_date": "7 August 2023"
+        }
+    },
+    {
+        "id": 3,
+        "cover_image": "https://demo2.themelexus.com/latehome/wp-content/uploads/2019/08/blog5-770x470.jpg",
+        "title": "How to Generate Real Estate Leads",
+        "description": "We don’t see them, we will never see them. Special cloth alert. They don’t want us to eat. To succeed you must believe.",
+        "author": {
+            "name": "Noles",
+            "posted_date": "29 January 2024"
+        }
+    }
+]

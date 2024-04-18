@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Luxury Beachfront Villa",
+        "segment_name": "Residential",
+        "description": "Exquisite villa with direct beach access and breathtaking ocean views. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$3,800,000",
+        "status": "sale",
+        "area": "6000 ",
+        "location": "Sunset Bay, Coastal Paradise",
+        "facilities": [
+            "Private beachfront",
+            "Infinity pool",
+            "Outdoor entertainment area"
+        ],
+        "image": "https://i.postimg.cc/QdcBV4m8/5.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 2,
+        "estate_title": "Modern City Loft",
+        "segment_name": "Residential",
+        "description": "Sleek and contemporary loft apartment in the bustling downtown area. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$6,200",
+        "status": "rent",
+        "area": "1800",
+        "location": "Urban Heights, City Center",
+        "facilities": [
+            "Open-concept living space",
+            "City skyline views",
+            "Fitness center access"
+        ],
+        "image": "https://i.postimg.cc/YqKRPVvk/9.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 3,
+        "estate_title": "Elegant Suburban Mansion",
+        "segment_name": "Residential",
+        "description": "Stately mansion nestled in a peaceful suburban setting with lush gardens. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$5,500,000",
+        "status": "sale",
+        "area": "8000 ",
+        "location": "Greenwood Estates, Serene Suburbia",
+        "facilities": [
+            "Expansive landscaped grounds",
+            "Indoor pool",
+            "Home theater"
+        ],
+        "image": "https://i.postimg.cc/CxMGTVSy/gallery-4.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 4,
+        "estate_title": "Family-Friendly Townhouse",
+        "segment_name": "Residential",
+        "description": "Spacious townhouse perfect for families, located in a friendly neighborhood. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$8,500,000",
+        "status": "sale",
+        "area": "3000 ",
+        "location": "Maplewood Lane, Family Haven",
+        "facilities": [
+            "Multiple bedrooms",
+            "Community playground",
+            "Modern kitchen"
+        ],
+        "image": "https://i.postimg.cc/MK3THk1J/1.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 5,
+        "estate_title": "Riverside Retreat",
+        "segment_name": "Residential",
+        "description": "Tranquil riverside property offering serene views and outdoor recreation. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$1,200,000",
+        "status": "Rent",
+        "area": "2500 ",
+        "location": "Riverbend Drive, Scenic Riverside",
+        "facilities": [
+            "Riverfront deck",
+            "Boat dock",
+            "Outdoor barbecue area"
+        ],
+        "image": "https://i.postimg.cc/kXJ0ZB67/gallery-18.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 6,
+        "estate_title": "Exclusive Mountain Retreat",
+        "segment_name": "Residential",
+        "description": "Exclusive mountain retreat with luxury amenities and stunning views. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$4,500,000",
+        "status": "Rent",
+        "area": "7000 ",
+        "location": "Mountain Ridge, Tranquil Wilderness",
+        "facilities": [
+            "Mountain-view terraces",
+            "Heated indoor pool",
+            "Home gym"
+        ],
+        "image": "https://i.postimg.cc/4ys6fYj5/blog-1-600x390.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 7,
+        "estate_title": "Country Farmhouse Estate",
+        "segment_name": "Residential",
+        "description": "Charming farmhouse estate surrounded by rolling countryside. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$1,500,000",
+        "status": "sale",
+        "area": "4000 ",
+        "location": "Meadowbrook Farm, Rural Retreat",
+        "facilities": [
+            "Expansive gardens",
+            "Barn and stables",
+            "Pond with dock"
+        ],
+        "image": "https://i.postimg.cc/nhFn4nfP/blog-2-600x390.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 8,
+        "estate_title": "Lakefront Cottage",
+        "segment_name": "Residential",
+        "description": "Cozy cottage with stunning views of the lake and access to water activities. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$650,000",
+        "status": "sale",
+        "area": "1800 ",
+        "location": "Lakeview Lane, Tranquil Waterside",
+        "facilities": [
+            "Lakeside deck",
+            "Boat dock",
+            "Fire pit"
+        ],
+        "image": "https://i.postimg.cc/hjz2NQT3/property-24-573x367.jpg",
+        "button_text": "View Property"
+    },
+    {
+        "id": 9,
+        "estate_title": "Golf Course Villa",
+        "segment_name": "Residential",
+        "description": "Elegant villa overlooking a prestigious golf course, ideal for golf enthusiasts. The ideal starter set upon on 25 acres of flat country, the choice is yours. Only 15 Minutes from Toowoomba you can enjoy a comfortable semi – rural lifestyle with multiple living areas. The spacious kitchen has ample storage space, an electric cooktop and oven. This solid brick home offers an open plan dining and living room that adjoins the carpeted formal lounge room, perfect for movie nights with family. The large deck is ideal for entertaining or just relaxing with a good book enjoying the breeze and the 25 acre outlook. There are four generously-sized bedrooms that are bright and airy and all 3 bedrooms have built in robes and are central the modern family bathroom. The master bedroom has a walk in robe and its own ensuite. Downstairs is a large rumpus/games room, which adjoins the oversized double car garage. Fully fenced and also a separate fenced house block, ample rainwater storage and a windmill perfect for stock water/garden irrigation. Don’t miss out on this fantastic opportunity! Call to arrange your inspection today! This home will be sold on or prior to Auction!",
+        "price": "$2,300,000",
+        "status": "Rent",
+        "area": "3500 ",
+        "location": "Fairway Greens, Golf Community",
+        "facilities": [
+            "Golf course views",
+            "Outdoor patio",
+            "Clubhouse access"
+        ],
+        "image": "https://i.postimg.cc/yNPKW5Gz/slider-1.png",
+        "button_text": "View Property"
+    }
+]

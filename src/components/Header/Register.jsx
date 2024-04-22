@@ -39,6 +39,7 @@ const Register = () => {
         setShowPassword(!showPassword);
     };
 
+    console.log(errors);
     return (
         <div className="hero min-h-screen bg-base-200" style={{
             backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${slider2})`,
@@ -104,7 +105,16 @@ const Register = () => {
                                 placeholder="Enter Your Password"
                                 className="w-4/5"
                                 {...register("password", {
-                                    required: " Password 6 characters, one uppercase letter one lowercase letter is required,",
+                                    required: "Password is required",
+                                    minLength: {
+                                        value: 6,
+                                        message: "Password must have at least 6 characters"
+                                    },
+                                    validate: {
+                                        hasUppercase: value => /[A-Z]/.test(value) || "Password must contain at least one uppercase letter",
+                                        hasLowercase: value => /[a-z]/.test(value) || "Password must contain at least one lowercase letter",
+                                        hasNumber: value => /[0-9]/.test(value) || "Password must have at least 1 Number"
+                                    }
                                 })}
                             />
                             <button
@@ -115,7 +125,7 @@ const Register = () => {
                                 {showPassword ? <FaRegEyeSlash className="h-6 w-6 text-gray-500" /> : <FaRegEye className="h-6 w-6 text-gray-500" />}
                             </button>
                         </div>
-                        {errors.password && <span className="text-xs text-red-500">Password is required</span>}
+                        {errors.password && <span className="text-xs text-red-500">{errors?.password?.message}</span>}
                     </div>
                     <div className="form-control my-6">
                         <button type="submit" className="btn bg-[#007AFF] hover:bg-[#007bffde] text-white text-xl font-bold">Create An Account</button>
